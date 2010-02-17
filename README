@@ -1,0 +1,4 @@
+Cacti host template and script to gather redis statistics through 'INFO' command.
+keys/expires values are gathered for db0, by default. Indicate required db parameter in data sources to customize.
+
+Python redis module http://github.com/andymccurdy/redis-py/ required for operation.
