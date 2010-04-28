@@ -563,7 +563,7 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070019c3801d947baf64ef7f57c1cbe8c67f04</data_input_field_id>
+				<data_input_field_id>hash_0700191d97a3a2f735ea10818fc873649a9f74</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
 			</item_000>
@@ -572,6 +572,11 @@
 				<t_value></t_value>
 				<value></value>
 			</item_001>
+			<item_002>
+				<data_input_field_id>hash_070019c3801d947baf64ef7f57c1cbe8c67f04</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
+			</item_002>
 		</data>
 	</hash_010019df543542ffb06cf372fcafc1e29244d8>
 	<hash_010019217d6375019d7047bf305f77c3fc5250>
@@ -610,10 +615,15 @@
 				<value></value>
 			</item_000>
 			<item_001>
+				<data_input_field_id>hash_0700191d97a3a2f735ea10818fc873649a9f74</data_input_field_id>
+				<t_value>on</t_value>
+				<value>none</value>
+			</item_001>
+			<item_002>
 				<data_input_field_id>hash_07001926bdb04d8efee8eae86fdb5c2c6757d9</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_001>
+			</item_002>
 		</data>
 	</hash_010019217d6375019d7047bf305f77c3fc5250>
 	<hash_01001913dda9445a4c2206799943b5bb442e02>
@@ -661,7 +671,7 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070019c3801d947baf64ef7f57c1cbe8c67f04</data_input_field_id>
+				<data_input_field_id>hash_0700191d97a3a2f735ea10818fc873649a9f74</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
 			</item_000>
@@ -670,6 +680,11 @@
 				<t_value></t_value>
 				<value></value>
 			</item_001>
+			<item_002>
+				<data_input_field_id>hash_070019c3801d947baf64ef7f57c1cbe8c67f04</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
+			</item_002>
 		</data>
 	</hash_01001913dda9445a4c2206799943b5bb442e02>
 	<hash_0100190014104b3b49db0b8ed6b0e8010f6370>
@@ -717,7 +732,7 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070019c3801d947baf64ef7f57c1cbe8c67f04</data_input_field_id>
+				<data_input_field_id>hash_0700191d97a3a2f735ea10818fc873649a9f74</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
 			</item_000>
@@ -726,12 +741,17 @@
 				<t_value></t_value>
 				<value></value>
 			</item_001>
+			<item_002>
+				<data_input_field_id>hash_070019c3801d947baf64ef7f57c1cbe8c67f04</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
+			</item_002>
 		</data>
 	</hash_0100190014104b3b49db0b8ed6b0e8010f6370>
 	<hash_030019a781b018110faed4958e293be3e6ff8b>
 		<name>Redis - Statistics</name>
 		<type_id>1</type_id>
-		<input_string>/usr/local/bin/python &lt;path_cacti&gt;/scripts/redis-stats.py &lt;hostname&gt; -d &lt;db&gt;</input_string>
+		<input_string>/usr/local/bin/python &lt;path_cacti&gt;/scripts/redis-stats.py &lt;hostname&gt; -d &lt;db&gt; -a &lt;auth&gt;</input_string>
 		<fields>
 			<hash_07001926bdb04d8efee8eae86fdb5c2c6757d9>
 				<name>Host to query for memcached statistics. </name>
@@ -742,6 +762,15 @@
 				<input_output>in</input_output>
 				<data_name>hostname</data_name>
 			</hash_07001926bdb04d8efee8eae86fdb5c2c6757d9>
+			<hash_0700191d97a3a2f735ea10818fc873649a9f74>
+				<name>auth password</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>auth</data_name>
+			</hash_0700191d97a3a2f735ea10818fc873649a9f74>
 			<hash_070019c3801d947baf64ef7f57c1cbe8c67f04>
 				<name>database name to gather keys/expires stats</name>
 				<update_rra></update_rra>
