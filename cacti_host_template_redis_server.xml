@@ -751,7 +751,7 @@
 	<hash_030019a781b018110faed4958e293be3e6ff8b>
 		<name>Redis - Statistics</name>
 		<type_id>1</type_id>
-		<input_string>python &lt;path_cacti&gt;/scripts/redis-stats.py &lt;hostname&gt; -d &lt;db&gt; -a &lt;auth&gt;</input_string>
+		<input_string>python &lt;path_cacti&gt;/scripts/redis-stats.py &lt;hostname&gt; -d &lt;db&gt; -a "&lt;auth&gt;"</input_string>
 		<fields>
 			<hash_07001926bdb04d8efee8eae86fdb5c2c6757d9>
 				<name>Host to query for memcached statistics. </name>
