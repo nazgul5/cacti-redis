@@ -575,7 +575,7 @@
 			<item_002>
 				<data_input_field_id>hash_070019c3801d947baf64ef7f57c1cbe8c67f04</data_input_field_id>
 				<t_value>on</t_value>
-				<value></value>
+				<value>db0</value>
 			</item_002>
 		</data>
 	</hash_010019df543542ffb06cf372fcafc1e29244d8>
@@ -612,12 +612,12 @@
 			<item_000>
 				<data_input_field_id>hash_070019c3801d947baf64ef7f57c1cbe8c67f04</data_input_field_id>
 				<t_value>on</t_value>
-				<value></value>
+				<value>db0</value>
 			</item_000>
 			<item_001>
 				<data_input_field_id>hash_0700191d97a3a2f735ea10818fc873649a9f74</data_input_field_id>
 				<t_value>on</t_value>
-				<value>none</value>
+				<value></value>
 			</item_001>
 			<item_002>
 				<data_input_field_id>hash_07001926bdb04d8efee8eae86fdb5c2c6757d9</data_input_field_id>
@@ -683,7 +683,7 @@
 			<item_002>
 				<data_input_field_id>hash_070019c3801d947baf64ef7f57c1cbe8c67f04</data_input_field_id>
 				<t_value>on</t_value>
-				<value></value>
+				<value>db0</value>
 			</item_002>
 		</data>
 	</hash_01001913dda9445a4c2206799943b5bb442e02>
@@ -744,7 +744,7 @@
 			<item_002>
 				<data_input_field_id>hash_070019c3801d947baf64ef7f57c1cbe8c67f04</data_input_field_id>
 				<t_value>on</t_value>
-				<value></value>
+				<value>db0</value>
 			</item_002>
 		</data>
 	</hash_0100190014104b3b49db0b8ed6b0e8010f6370>
